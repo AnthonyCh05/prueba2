@@ -4,6 +4,10 @@ public class AlexandraUser  {
     private String name;
     private int age;
 
+    public void mostrarInfo() {
+    System.out.println("Nombre: " + name + ", Edad: " + age);
+    }
+
     public AlexandraUser (String name, int age) {
         this.name = name;
         this.age = age;
