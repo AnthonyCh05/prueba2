@@ -1,8 +1,10 @@
-public class alexandraUser  {
+package USERS;
+
+public class AlexandraUser  {
     private String name;
     private int age;
 
-    public alexandraUser (String name, int age) {
+    public AlexandraUser (String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -15,3 +17,5 @@ public class alexandraUser  {
         return age;
     }
 }
+    
+

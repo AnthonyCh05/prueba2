@@ -14,6 +14,7 @@ public Class AnthonyUser {
     }
 
     public int getAge() {
+        String ageString = Integer.toString(age);
         return age;
     }
 
