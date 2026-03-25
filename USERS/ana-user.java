@@ -13,6 +13,7 @@ public Class AnaUser {
     }
 
     public String getEmail() {
+        String email = this.email.toLowerCase();
         return email;
     }
 }
